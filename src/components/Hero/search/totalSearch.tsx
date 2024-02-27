@@ -25,7 +25,7 @@ const TotalSearch = ({ searchList, deleteItem }) => {
                     type='text'
                     value={value}
                     placeholder="Please type your dream!"
-                    className="!max-w-full text-gray-100 bg-[#2E5AC7] outline-non focus:outline-none ml-2"
+                    className="!max-w-full text-gray-600 bg-custom-gray outline-non focus:outline-none ml-2"
                     onChange={e => setValue(e.target.value)}
                 />
             </div>

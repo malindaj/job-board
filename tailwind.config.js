@@ -56,6 +56,7 @@ module.exports = {
           dark: "#1E232E",
           light: "#F0F2F9",
         },
+        "custom-gray": "#F3F4F6",
       },
 
       boxShadow: {

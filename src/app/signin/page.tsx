@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Metadata } from "next";
+import { SignIn } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: "Sign In Page | Free Next.js Template for Startup and SaaS",
@@ -13,7 +14,7 @@ const SigninPage = () => {
     <>
       <section className="relative z-10 overflow-hidden pb-16 pt-36 md:pb-20 lg:pb-28 lg:pt-[180px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+          {/* <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="shadow-three mx-auto max-w-[500px] rounded bg-white px-6 py-10 dark:bg-dark sm:p-[60px]">
                 <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
@@ -166,7 +167,8 @@ const SigninPage = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
+          {/* <SignIn /> */}
         </div>
         <div className="absolute left-0 top-0 z-[-1]">
           <svg
